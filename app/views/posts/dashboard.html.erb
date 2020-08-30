@@ -1,0 +1,30 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="estado">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<table class="table">
+  <thead>
+    <tr>
+        <th scope="col">NOMBRE</th>
+        <th scope="col">DESCRIPCION</th>
+        <th scope="col">FECHA INICIO</th>
+        <th scope="col">FECHA TERMINO</th>
+        <th scope="col">ESTADO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @posts.each do |post| %>
+    <tr>
+        <td><%= post.nombre %></td>
+        <td><%= post.descripcion %></td>
+        <td><%= post.fecha_comienzo %></td>
+        <td><%= post.fecha_termino %></td>
+        <td><%= post.estado %></td>
+    </tr>  
+<% end %>
+  </tbody>
+</table>

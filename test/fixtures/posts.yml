@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  descripcion: MyString
+  string: MyString
+  fecha_comienzo: 2020-08-30
+  fecha_termino: 2020-08-30
+  estado: MyString
+
+two:
+  nombre: MyString
+  descripcion: MyString
+  string: MyString
+  fecha_comienzo: 2020-08-30
+  fecha_termino: 2020-08-30
+  estado: MyString
